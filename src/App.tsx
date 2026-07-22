@@ -493,7 +493,6 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-3">
-            <CoreLogicLogo size="sm" />
             <div className="flex items-center gap-1 rounded-lg border border-slate-800 bg-slate-900 p-1">
               {(['EN', 'BG'] as Lang[]).map((l) => (
                 <button
